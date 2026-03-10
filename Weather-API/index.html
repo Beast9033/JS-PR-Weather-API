@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather Monitor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+
+    <div class="weather-card shadow-lg">
+
+        <h2 class="text-center mb-4">Weather Monitor</h2>
+
+        <div class="input-group mb-4">
+            <input type="text" id="cityInput" class="form-control" placeholder="Enter city name">
+            <button class="btn btn-primary" id="searchBtn">Search</button>
+        </div>
+
+        <div class="text-center">
+
+            <h4 id="cityName"></h4>
+
+            <img id="icon" class="weather-icon">
+
+            <h1 id="temp"></h1>
+
+            <p id="weatherDesc"></p>
+
+        </div>
+
+        <div class="row text-center mt-4">
+
+            <div class="col-6 info-box">
+                <p>Wind Speed</p>
+                <span id="wind"></span>
+            </div>
+
+            <div class="col-6 info-box">
+                <p>Humidity</p>
+                <span id="humidity"></span>
+            </div>
+
+        </div>
+
+        <div class="row text-center mt-3">
+
+            <div class="col-6 info-box">
+                <p>Feels Like</p>
+                <span id="feels"></span>
+            </div>
+
+            <div class="col-6 info-box">
+                <p>Pressure</p>
+                <span id="pressure"></span>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="./JS/script.js"></script>
+
+</body>
+</html>

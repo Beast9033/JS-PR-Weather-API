@@ -1,0 +1,33 @@
+body{
+    background: url("/Images/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather-card{
+    width: 380px;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(8px);
+    color: #000;
+}
+
+.weather-icon{
+    width: 90px;
+    margin: 10px 0;
+}
+
+.info-box{
+    background: rgba(29, 29, 29, 0.08);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info-box p{
+    margin-bottom: 5px;
+    font-size: 14px;
+    opacity: 0.8;
+}
